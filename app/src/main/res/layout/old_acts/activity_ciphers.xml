@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="._____oldactivities.ciphersactivity.CiphersActivity">
+	
+	<androidx.coordinatorlayout.widget.CoordinatorLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+			
+<!--			<fragment-->
+<!--				android:id="@+id/ciphers_host"-->
+<!--				android:name="androidx.navigation.fragment.NavHostFragment"-->
+<!--				android:layout_width="match_parent"-->
+<!--				android:layout_height="match_parent"-->
+<!--				app:navGraph="@navigation/navigation_ciphers" />-->
+	
+	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>
+

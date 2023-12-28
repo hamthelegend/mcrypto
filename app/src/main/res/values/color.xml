@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+~ Copyright (C) 2019 The Android Open Source Project
+~
+~ Licensed under the Apache License, Version 2.0 (the "License");
+~ you may not use this file except in compliance with the License.
+~ You may obtain a copy of the License at
+~
+~      http://www.apache.org/licenses/LICENSE-2.0
+~
+~ Unless required by applicable law or agreed to in writing, software
+~ distributed under the License is distributed on an "AS IS" BASIS,
+~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~ See the License for the specific language governing permissions and
+~ limitations under the License.
+-->
+
+<resources>
+
+    <!--Color-->
+
+    <!--Material uses an organized approach to applying color by providing a set of attributes -->
+    <!--which define the color of generalized UI elements such as backgrounds, surfaces, type -->
+    <!--and icons. Using these attributes throughout your app makes it easy to change a single -->
+    <!--color, or the entire theme, and have those changes cascade through the interface.-->
+
+    <!--Color is customized by overriding Material Components color attributes with custom -->
+    <!--color values. In this project, your theme’s color attributes are already overridden -->
+    <!--with default values defined in this file, color.xml.  Change any of the values in -->
+    <!--this file to see changes applied across all elements of your app.-->
+
+    <!--LIGHT COLOR THEME-->
+
+<!--    &lt;!&ndash;colorPrimary colors map to components and elements, such as app bars and buttons. &ndash;&gt;-->
+<!--    &lt;!&ndash;colorSecondary colors are most often used as accents on components, such as FABs and &ndash;&gt;-->
+<!--    &lt;!&ndash;selection controls.&ndash;&gt;-->
+<!--    <color name="color_primary">#6516dd</color>-->
+<!--    <color name="color_primary_variant">#a06ced</color>-->
+<!--    <color name="color_secondary">#162add</color>-->
+<!--    <color name="color_secondary_variant">#6e55f0</color>-->
+
+<!--    &lt;!&ndash;colorBackground appears behind scrollable content and is used for the default window&ndash;&gt;-->
+<!--    &lt;!&ndash;background. colorSurface is mapped to the surface of components such as cards, sheets&ndash;&gt;-->
+<!--    &lt;!&ndash;and menus. colorError is used to indicate an error state for components such as&ndash;&gt;-->
+<!--    &lt;!&ndash;text fields.&ndash;&gt;-->
+<!--    <color name="color_background">#ffffff</color>-->
+<!--    <color name="color_surface">#ffffff</color>-->
+<!--    <color name="color_error">#ee0290</color>-->
+
+<!--    &lt;!&ndash;"On" colors define how text, icons and strokes are colored in relation to the surface&ndash;&gt;-->
+<!--    &lt;!&ndash;on which they appear.&ndash;&gt;-->
+<!--    <color name="color_on_primary">#ffffff</color>-->
+<!--    <color name="color_on_secondary">#ffffff</color>-->
+<!--    <color name="color_on_background">#CC262626</color>-->
+<!--    <color name="color_on_surface">#000000</color>-->
+<!--    <color name="color_on_error">#ffffff</color>-->
+
+<!--    <color name="received_card_color">#25000000</color>-->
+<!--    <color name="received_text_color">#000000</color>-->
+<!--    <color name="sent_card_color">#6002ee</color>-->
+<!--    <color name="sent_text_color">#ffffff</color>-->
+
+    <!--colorPrimary colors map to components and elements, such as app bars and buttons. -->
+    <!--colorSecondary colors are most often used as accents on components, such as FABs and -->
+    <!--selection controls.-->
+    <color name="color_primary">#2962ff</color>
+    <color name="color_primary_variant">#96a4fe</color>
+    <color name="color_secondary">#ffc629</color>
+    <color name="color_secondary_variant">#ffdd81</color>
+
+    <!--colorBackground appears behind scrollable content and is used for the default window-->
+    <!--background. colorSurface is mapped to the surface of components such as cards, sheets-->
+    <!--and menus. colorError is used to indicate an error state for components such as-->
+    <!--text fields.-->
+    <color name="color_background">#ffffff</color>
+    <color name="color_surface">#ffffff</color>
+    <color name="color_error">#ff2962</color>
+
+    <!--"On" colors define how text, icons and strokes are colored in relation to the surface-->
+    <!--on which they appear.-->
+    <color name="color_on_primary">#ffffff</color>
+    <color name="color_on_secondary">#000000</color>
+    <color name="color_on_background">#CC262626</color>
+    <color name="color_on_surface">#CC262626</color>
+    <color name="color_on_error">#ffffff</color>
+
+    <color name="received_card_color">#25000000</color>
+    <color name="received_text_color">#000000</color>
+    <color name="sent_card_color">#2962ff</color>
+    <color name="sent_text_color">#ffffff</color>
+
+    <color name="color_nav_bar">#ffffff</color>
+    <color name="color_nav_drawer">#ffffff</color>
+
+</resources>

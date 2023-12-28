@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/color_background">
+	
+	<androidx.cardview.widget.CardView
+		android:id="@+id/card_view"
+		android:minWidth="@dimen/card_min_width"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		tools:layout_marginStart="@dimen/margin"
+		tools:layout_marginTop="@dimen/margin_half"
+		tools:layout_marginEnd="@dimen/message_indention"
+		tools:layout_marginBottom="@dimen/margin_half"
+		app:cardCornerRadius="@dimen/cardCornerRadius"
+		app:cardElevation="0dp"
+		android:foreground="?android:attr/selectableItemBackground"
+		tools:cardBackgroundColor="?colorSurface">
+		
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:minWidth="@dimen/card_min_width"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_margin="@dimen/margin_half"
+			android:padding="@dimen/margin_half">
+			
+			<TextView
+				android:id="@+id/encrypted_message_txt_vw"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:ellipsize="end"
+				android:maxLines="1"
+				tools:textColor="?colorOnSurface"
+				app:layout_constraintBottom_toBottomOf="@+id/copy_button"
+				app:layout_constraintEnd_toStartOf="@+id/copy_button"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="@+id/copy_button"
+				tools:text="05451215445544406544040644454045klilk040" />
+			
+			<ImageView
+				android:scaleType="fitCenter"
+				android:id="@+id/copy_button"
+				android:layout_margin="0dp"
+				android:layout_width="@dimen/small_image"
+				android:layout_height="@dimen/small_image"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				android:src="@drawable/ic_copy_white"
+				tools:tint="?colorOnSurface"/>
+			
+			<TextView
+				android:id="@+id/decrypted_message_txt_vw"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/margin_half"
+				tools:textColor="?colorOnSurface"
+				android:textSize="16sp"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/encrypted_message_txt_vw"
+				tools:text="@string/small_sample"
+				android:fontFamily="@font/quicksand_medium"/>
+		
+		</androidx.constraintlayout.widget.ConstraintLayout>
+	
+	</androidx.cardview.widget.CardView>
+
+</RelativeLayout>

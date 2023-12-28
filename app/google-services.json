@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "166214002040",
+    "firebase_url": "https://mcryptomaterial.firebaseio.com",
+    "project_id": "mcryptomaterial",
+    "storage_bucket": "mcryptomaterial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166214002040:android:88e25e1cf2ce911e",
+        "android_client_info": {
+          "package_name": "com.tqbfoxx.mcryptotwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166214002040-tqh9l0otuonp36n7nqkbcm0h3he067c2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJTigIZxw9Vcpwrv4TmNLU0vQdmy3AFyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166214002040-tqh9l0otuonp36n7nqkbcm0h3he067c2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
